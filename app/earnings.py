@@ -8,13 +8,13 @@ app = Flask(__name__)
 
 # Specify the exact paths to your Earnings.csv files
 EARNINGS_FILES = [
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_1_31_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_1_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_2_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_3_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_4_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_5_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 4\DTM_2_6_25\Earnings.csv"
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_7_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_8_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_9_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_10_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_11_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_12_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_13_25\Earnings.csv"
 ]
 
 # Earnings types we expect
@@ -82,7 +82,7 @@ def create_bar_chart(earnings_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\TGA Week 4\earnings_chart.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 5\earnings_chart.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path

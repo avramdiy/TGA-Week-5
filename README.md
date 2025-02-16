@@ -25,3 +25,7 @@
 ### 2.15.25
 
 - Added 2.13.25 files (Day 7)
+
+### 2.16.25
+
+- Created Week 5 visualizations. On to Week 6.
